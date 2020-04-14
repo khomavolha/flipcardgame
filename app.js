@@ -95,14 +95,13 @@ document.addEventListener("DOMContentLoaded", () => {
     cardsChosenId = [];
     resultDisplay.textContent = cardsWon.length;
     if (cardsWon.length === cardArray.length / 2) {
-      resultDisplay.textContent = "Congratulations!";
+      resultDisplay.textContent = "Поздравляем! Вы победили";
     }
   }
 
   function flipcard() {
     var cardId = this.getAttribute("data-id");
     cardsChosen.push(cardArray[cardId].name);
-    console.log(cardsChosen);
     cardsChosenId.push(cardId);
     this.setAttribute("src", cardArray[cardId].img);
     if (cardsChosen.length === 2) {
