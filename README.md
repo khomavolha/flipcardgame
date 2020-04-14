@@ -1,3 +1,3 @@
 # flipcardgame
-simple flip-card game 
-try it here: 
+simple flip-card game /n
+try it here: https://khomavolha.github.io/flipcardgame/
